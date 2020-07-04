@@ -18,12 +18,15 @@
 1. Убедитесь что установлена тулза molecule версии 3 ```$ molecule --version```
 2. Если не знаем что такое molecule, как с этим работать, ознакамливаемся -> [Ссылка](https://habr.com/ru/company/ostrovok/blog/448136/)
 3. Прогоняем тесты:
+
     $ cd roles/docker
+    
     $ molecule test
     
 # Прогон ролей
 
 Выполняем:
+
     $ ansible-playbook -i production site.yml
     
  **Готово**
