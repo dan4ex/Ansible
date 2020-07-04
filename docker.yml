@@ -1,0 +1,4 @@
+---
+- hosts: prod
+  roles:
+    - role: docker
