@@ -9,7 +9,7 @@
 
 # Предварительная подготовка
 
-1. В файле prodaction указать спиcки серверов
+1. В файле production указать спиcки серверов
 2. Указать путь к вашему приватному ключу в group_vars/prod.yml
 3. Установить ```$ pip install molecule yamllint ansible-lint docker```
 
