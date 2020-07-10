@@ -9,7 +9,7 @@ lint:
    ansible-lint
 platforms:
   - name: instance
-    image: sdarwin/centos8-ansible
+    image: ${MOLECULE_DISTRO:-diodonfrost/centos-8-ansible}
     command: ${MOLECULE_DOCKER_COMMAND:-""}
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro

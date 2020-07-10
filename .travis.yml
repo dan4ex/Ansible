@@ -1,0 +1,29 @@
+---
+language: python
+services: docker
+
+env:
+  global:
+    - ROLE_NAME: docker
+  matrix:
+    - MOLECULE_DISTRO: diodonfrost/centos-8-ansible
+    - MOLECULE_DISTRO: diodonfrost/centos-7-ansible
+    - MOLECULE_DISTRO: diodonfrost/ubuntu-20.04-ansible
+    - MOLECULE_DISTRO: diodonfrost/ubuntu-18.04-ansible
+    - MOLECULE_DISTRO: diodonfrost/debian-10-ansible
+    - MOLECULE_DISTRO: diodonfrost/debian-9-ansible
+    - MOLECULE_DISTRO: diodonfrost/fedora-31-ansible
+
+install:
+  # Install test dependencies.
+  - pip install molecule yamllint ansible-lint docker
+
+before_script:
+  # Use actual Ansible Galaxy role name for the project directory.
+  - pwd
+  - ls -la
+  - cd roles/$ROLE_NAME
+
+script:
+  # Run tests.
+  - molecule test
