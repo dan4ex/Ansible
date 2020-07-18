@@ -3,9 +3,9 @@
 
 <p align="center">
 <a href="https://travis-ci.org/github/dan4ex/Ansible"><img src="https://travis-ci.org/dan4ex/Ansible.svg" alt="Build Status"></a>
-<a href="https://github.com/dan4ex/Ansible"><img src="https://img.shields.io/github/forks/dan4ex/Kubernetes?style=social"></a>
-<a href="https://github.com/dan4ex/Ansible"><img src="https://img.shields.io/github/stars/dan4ex/Kubernetes?style=social"></a>
-<a href="https://github.com/dan4ex/Ansible"><img src="https://img.shields.io/github/watchers/dan4ex/Kubernetes?style=social"></a>
+<a href="https://github.com/dan4ex/Ansible"><img src="https://img.shields.io/github/forks/dan4ex/Ansible?style=social"></a>
+<a href="https://github.com/dan4ex/Ansible"><img src="https://img.shields.io/github/stars/dan4ex/Ansible?style=social"></a>
+<a href="https://github.com/dan4ex/Ansible"><img src="https://img.shields.io/github/watchers/dan4ex/Ansible?style=social"></a>
 </p>
 
 # Предварительная подготовка
